@@ -15,5 +15,5 @@ WORKDIR /srv/docker-server
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-EXPOSE 8083
-CMD ["python", "manage.py","runserver","0.0.0.0:8083"]
+EXPOSE 8080
+CMD ["python", "manage.py","runserver","0.0.0.0:8080"]
