@@ -1,1 +1,1 @@
-# Django DRF
+# Django routine
