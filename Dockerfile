@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 #COPY ../../requirements.txt ./
 #RUN pip install -r requirements.txt
 RUN apt-get update
-COPY ../.././ /usr/src/app/.
+COPY ./ /usr/src/app/.
 
 RUN pip install -r requirements.txt
 

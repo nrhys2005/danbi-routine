@@ -1,8 +1,10 @@
 from django.contrib.auth.models import User
 from rest_framework import serializers
 
+# from routine.models.routine import Routine
 
-class UserSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = User
-        fields = ['url', 'username', 'email', 'groups']
+
+# class RoutineSerializer(serializers.HyperlinkedModelSerializer):
+#     class Meta:
+#         model = Routine
+#         #fields = ['url', 'username', 'email', 'groups']
